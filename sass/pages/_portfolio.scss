@@ -1,7 +1,6 @@
-.portfolio-title{ 
-  @extend %visualyhidden;
+.portfolio-title{
+    @extend %visuallyhidden;
 }
-//filter buttons
 
 .filters{
     display: flex;
