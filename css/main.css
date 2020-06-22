@@ -109,12 +109,12 @@ a {
   letter-spacing: 0.03em;
 }
 
-.logo :hover, .logo :focus {
-  color: #757575;
+.logo .web {
+  color: #2196f3;
 }
 
-.web {
-  color: #2196f3;
+.logo :hover, .logo :focus {
+  color: #757575;
 }
 
 .header-box {
