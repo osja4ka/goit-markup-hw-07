@@ -98,12 +98,12 @@ a {
   letter-spacing: 0.03em;
 }
 
-.logo .web {
-  color: #2196f3;
-}
-
 .logo :hover, .logo :focus {
   color: #757575;
+}
+
+s.web {
+  color: #2196f3;
 }
 
 .header-box {
@@ -292,17 +292,6 @@ a {
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .advantages {
@@ -841,6 +830,10 @@ a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.portfolio-title {
+  color: 0;
 }
 
 .filters {
