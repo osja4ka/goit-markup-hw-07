@@ -1,23 +1,24 @@
-.portfolio-heading{
-    visibility: hidden;
+.visually-hidden{ 
+  @extend%visualy-hidden;
 }
-/*filter buttons*/
+//filter buttons
 
 .filters{
     display: flex;
     justify-content: center;
+
+    li{
+        margin-right: 8px;
+        margin-bottom: 50px;
+    
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
 }
 .heading{
     text-align: center;
 
-}
-.filters li{
-    margin-right: 8px;
-    margin-bottom: 50px;
-
-    &:last-child{
-        margin-right: 0px;
-    }
 }
 
 .filter-button{
@@ -95,7 +96,12 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+
+    &:hover .example-description{
+        transform: translateY(0px);
+      
+ }}
 
 .example-category{
     margin-left: 0px;
@@ -133,7 +139,3 @@
         transform: translateY(370px);
         transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-.example-item:hover .example-description{
-       transform: translateY(0px);
-     
-}
